@@ -6,3 +6,48 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+
+header{ 
+    background-color: bisque;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 500px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
+}
+.banner-description{
+    color: #424242;    
+}
+.btn-primary{
+    
+}
