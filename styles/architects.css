@@ -131,6 +131,15 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.sponsors{
+    text-align: center;
+}
+.sponsors-image{
+   
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
 
 @media screen and (max-width:576px){
     header{
@@ -142,9 +151,12 @@ main{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content .facts-card-container{
         padding-right: 70px;
         padding-left: 70px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px){
@@ -154,4 +166,6 @@ main{
     nav, .teams-container{
         flex-direction: column;
     }
-}
+    .teams-container, .sponsors-images{
+        flex-direction: column;
+    }
