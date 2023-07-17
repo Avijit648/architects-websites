@@ -18,7 +18,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.section-title{
     font-size: 3rem;
     font-weight: 700;
     color: #131313;
@@ -47,7 +47,7 @@ nav li a{
     color: #131313;
     font-weight: 700;
 }
-.banner-description{
+.text-light-gray{
     color: #424242;    
 }
 .btn-primary{
