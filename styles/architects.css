@@ -1,6 +1,10 @@
 /* work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+body{
+    max-width: 100%;
+}
+
 *{
     font-family: 'lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -77,4 +81,34 @@ nav li a{
     nav{
         flex-direction: column;
     }
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+ color: #727272;
+ font-weight: 500;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight: 700px;
 }
