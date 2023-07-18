@@ -94,7 +94,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
-.teams-content{
+.teams-content .facts-card-container{
     padding-right: 70px;
     padding-left: 70px;
 }
@@ -135,7 +135,8 @@ main{
     text-align: center;
 }
 .sponsors-image{
-   
+   margin-top: 50px;
+   display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
@@ -152,8 +153,8 @@ main{
         grid-template-columns: 1fr;
     }
     .teams-content .facts-card-container{
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .facts-card-container{
         gap: 20px;
@@ -169,3 +170,5 @@ main{
     .teams-container, .sponsors-images{
         flex-direction: column;
     }
+
+}
